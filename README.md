@@ -78,21 +78,34 @@ Pięć umiejętności, których kurs główny nie ćwiczy — w Lekcji 12 pojawi
 
 ## Jak pracować z modułem
 
-Każdy moduł ma tę samą budowę:
+Każdy moduł ma tę samą budowę i da się go przejść, wklejając gotowe prompty do asystenta (Codex albo Claude Code):
 
-| Sekcja | Co robisz |
+| Sekcja | Co w niej jest |
 |---|---|
-| **O co chodzi / Cel** | wiesz, po co jest ten etap |
-| **Kroki** | wykonujesz je na swoim projekcie |
-| **✅ Dowód „done"** | sprawdzasz listę — konkretne pliki i wyniki w repo |
-| **🤖 Sprawdź się przez AI** | wklejasz swoje artefakty i gotową rubrykę do asystenta, dostajesz PASS/FAIL z uzasadnieniem |
-| **🚀 Idź dalej** | ćwiczenia dodatkowe |
+| **O co chodzi** | po co jest ten etap — prostym językiem, z porównaniem z życia |
+| **Słowa, które tu padną** | każde nowe pojęcie wyjaśnione jednym zdaniem |
+| **Przykład: Ofertownik** | jak wynik etapu wygląda na konkretnym projekcie — wypełniony, nie pusty szablon |
+| **Kroki** | każdy krok: po co, co robisz, **gotowy prompt do asystenta** i warunek „gotowe, gdy" |
+| **🔬 Głębiej** | zwijane bloki dla doświadczonych: kompromisy, pułapki z produkcji, rachunki |
+| **Najczęstsze potknięcia** | po czym poznać, że coś poszło źle, i co wtedy |
+| **✅ Sprawdź, czy masz wszystko** | lista kontrolna |
+| **🤖 Poproś asystenta o recenzję** | prompt z rubryką — dostajesz PASS/FAIL z uzasadnieniem |
+| **🚀 Dla chętnych** | 🔵 rozszerzenia dla każdego i 🟣 wyzwania dla doświadczonych |
 
-Rubryka w sekcji „Sprawdź się przez AI" to pierwszy filtr, nie wyrocznia — ostateczna ocena należy do Ciebie.
+### Dwa sposoby czytania
+
+- **Budujesz pierwszy własny projekt po kursie?** Czytaj tekst główny i wklejaj prompty po kolei. Bloki „Głębiej" możesz pominąć — moduł jest kompletny bez nich.
+- **Programujesz od lat?** Przeleć kroki, a zatrzymaj się na blokach „🔬 Głębiej" i wyzwaniach 🟣. Tam są rzeczy, o które warto się pospierać.
+
+### Przykład, który prowadzi przez całą ścieżkę
+
+We wszystkich modułach wraca ten sam projekt: **Ofertownik** — agent, który dla małej firmy szkoleniowej przygotowuje szkice ofert na podstawie cennika i wcześniejszych ofert, a właścicielka je zatwierdza. Nie budujesz go. Służy do pokazania, jak każdy etap wygląda w praktyce; swój projekt robisz obok, na własny temat.
+
+Recenzja asystenta to pierwszy filtr, nie wyrocznia — ostateczna ocena należy do Ciebie.
 
 ## Bez prac domowych — z pokazem na koniec
 
-Ta ścieżka **nie ma prac domowych, terminów ani oddawania modułów**. Pracujesz we własnym tempie, a o tym, czy etap jest gotowy, decydujesz sam — po liście „Dowód done" i rubryce.
+Ta ścieżka **nie ma prac domowych, terminów ani oddawania modułów**. Pracujesz we własnym tempie, a o tym, czy etap jest gotowy, decydujesz sam — po liście kontrolnej i recenzji asystenta.
 
 Jeśli zbudujesz swojego agenta, możesz go **zaprezentować grupie na 12. zajęciach** kursu. Pokaz jest dobrowolny; jak go przygotować, opisuje [Moduł 8](M8_DEMO.md).
 
