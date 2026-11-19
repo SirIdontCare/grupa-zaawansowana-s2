@@ -2,11 +2,21 @@
 
 Nieobowiązkowa ścieżka projektowa dla osób, które programują i chcą przejść pełny cykl budowy agenta AI: od wyboru problemu, przez specyfikację, architekturę, ewaluacje i zabezpieczenia, do wdrożenia i pokazu. Na kursie głównym budujesz agenta według lekcji. Tutaj budujesz **swojego** — na własny temat, według własnych decyzji, z liczbami na dowód, że działa.
 
-> Autor: **Paweł Paruzel**
+> Autor: **Paweł Paruzel** · Uzupełnienie kursu [AI Agents](https://github.com/SirIdontCare/laba-agenci-ai-s2)
+
+## Zacznij tutaj
+
+1. Przeczytaj tę stronę do końca — 5 minut.
+2. Otwórz **[Moduł 0: Problem i brief](M0_BRIEF.md)** i wybierz temat. Na tym etapie nie potrzebujesz niczego poza edytorem tekstu.
+3. Załóż **nowe, puste repozytorium** na swój projekt. Tego repo nie klonujesz — to instrukcje, które czytasz w przeglądarce; cała praca powstaje u Ciebie.
+
+Ścieżka główna to około **30 godzin** pracy plus 1–2 tygodnie budowy MVP. Nie ma terminów — idziesz własnym tempem.
 
 ## Dla kogo
 
 Dla programistów — od juniora po seniora. Zakładam, że swobodnie piszesz kod w co najmniej jednym języku, używasz gita i pracujesz z agentem kodującym (Codex albo Claude Code). Nie zakładam doświadczenia w budowaniu systemów agentowych.
+
+Jeśli dopiero uczysz się programować, zostań przy kursie głównym — ta ścieżka nie tłumaczy podstaw.
 
 ## Co powstanie
 
@@ -33,7 +43,9 @@ Jeden projekt, w jednym repozytorium, rozwijany przez całą ścieżkę:
 | **7** | [Wdrożenie i obserwowalność](M7_WDROZENIE.md) | adres produkcyjny, ślady przebiegów, `docs/RUNBOOK.md` | ~4 h |
 | **8** | [Demo i retrospektywa](M8_DEMO.md) | README projektu, demo, `docs/RETRO.md` | ~3 h |
 
-Moduły idą **po kolei** — każdy korzysta z artefaktów poprzedniego. Efektem jest **działający, wdrożony agent dla kilku użytkowników** — nie gotowy produkt komercyjny. Moduł T5 pokazuje płatności w środowisku testowym; obsługa wielu firm-klientów, sprzedaż i strona prawna są poza zakresem. Pierwsze trzy nie wymagają pisania kodu i to nie jest przypadek: zmiana decyzji w dokumencie kosztuje minuty, w kodzie — dni.
+Moduły idą **po kolei** — każdy korzysta z artefaktów poprzedniego. Pierwsze trzy nie wymagają pisania kodu i to nie jest przypadek: zmiana decyzji w dokumencie kosztuje minuty, w kodzie — dni.
+
+**Czego się spodziewać na końcu:** działającego, wdrożonego agenta dla kilku użytkowników — nie gotowego produktu komercyjnego. Płatności pojawiają się w module T5 wyłącznie w środowisku testowym; obsługa wielu firm-klientów, sprzedaż i strona prawna są poza zakresem.
 
 ### Moduły techniczne — do wyboru
 
@@ -91,7 +103,7 @@ Modele bierzesz z OpenRoutera **kluczem od LABA** — tym samym co na kursie gł
 - klucz jest wspólny i ma limit — ewaluacje i testy uruchamiaj świadomie ([Moduł 4](M4_EWALUACJE.md)),
 - agent korzystający z tego klucza musi być **za logowaniem** i mieć limity ([Moduł 6](M6_BEZPIECZENSTWO_I_KOSZTY.md)),
 - klucz nigdy nie trafia do repo, logów ani zrzutów ekranu; wyciek zgłaszasz prowadzącemu od razu,
-- do pracy roboczej używaj najtańszego modelu z kursowej tabeli `MODELE_DO_CWICZEN.md`,
+- do pracy roboczej używaj najtańszego modelu z kursowej tabeli [`MODELE_DO_CWICZEN.md`](https://github.com/SirIdontCare/laba-agenci-ai-s2/blob/main/MODELE_DO_CWICZEN.md),
 - agent, za którego ktokolwiek płaci ([T5](T5_PLATNOSCI_STRIPE.md)), nie może działać na kluczu kursowym — potrzebuje Twojego własnego.
 
 ## Gdy utkniesz
